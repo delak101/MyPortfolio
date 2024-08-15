@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Khaled Hesham</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop>
+        <source src="/assets/jin-sakai-ghost-of-tsushima-moewalls.com.mp4">
+      </video>
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a href="#" class="navigation__link">Bio</a></li>
+            <li><a href="#" class="navigation__link">Skills</a></li>
+            <li><a href="#" class="navigation__link">Media</a></li>
+            <li><a href="#" class="navigation__link">Projects</a></li>
+            <li><a href="#" class="navigation__link">My Clients</a></li>
+            <li><a href="#" class="navigation__link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox">
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Welcome To My Portfolio!
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Khaled Hesham</span>, a CS student and a passionate software engineer i publish projects on 
+            <a href="https://github.com/delak101" class="bio__github" target="_blank">My Github</a> and you can find me on 
+            <a href="https://www.linkedin.com/in/khaledhesham02/" class="bio__linkedin" target="_blank">LinkedIn</a>.
+          </p>
+          <a href="#" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links find-out-link">Download CV <span class="bio__arrow">↓</span></a>
+        </div>
+
+        <div class="bio__pic-content">
+          <img class="bio__pic" src="./assets/pictures/personal-pic.png" alt="My Picture">
+        </div>
+      </section>
+      
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__items">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">3 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">3 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">0.5 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">C#</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">Python</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+        </ul>
+      </section>
+  
+      <section id="media" class="media section">
+        <video class="media__video" src="/assets/no.mp4" alt="Dummy video temp" poster="/assets/pictures/thumbnailjpg.jpg" controls></video>
+      </section>
+
+    </div>
+  </body>
+</html>
