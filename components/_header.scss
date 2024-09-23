@@ -1,7 +1,6 @@
 .header {
-  position: relative;
   display: flex;
-  padding: 1.5rem 0;
+  padding: 3rem 0;
   justify-content: center;
   position: sticky;
   top: 0;
@@ -14,7 +13,7 @@
   position: absolute;
   height: 100%;
   width: 100vw;
-  border-bottom: 0.2rem solid var(--color-input-border);
+  border-bottom: 0.1rem solid var(--color-input-border);
   top: 0.1rem;
   z-index: -1;
   background-color: var(--color-background);
@@ -25,7 +24,8 @@
 }
 
 .navigation {
-  transition: var(--transition-timing);
+  transition: var(--transition-timing); /* for responsive screens */
+  background-color: var(--color-background); /* for responsive screens */
 }
 
 .navigation__list {
@@ -37,32 +37,14 @@
 .navigation__link:visited {
   text-decoration: none;
   font-weight: var(--font-weight-medium);
-  border-bottom: 0.15em solid transparent;
-  transition: border-bottom-color 0.3s ease;
 }
 
 .navigation__link:hover,
 .navigation__link:active {
   color: var(--color-text);
-  /* text-decoration: underline; */
-  border-bottom-color: var(--color-text);
-}
-
-.container:has(.bio:target) .navigation__bio {
-  color: var(--color-blue);
   text-decoration: underline;
-  font-weight: var(--font-weight-bold);
 }
 
-.container:has(.bio:target) .navigation__bio,
-.container:has(.skills:target) .navigation__skills,
-.container:has(.media:target) .navigation__media,
-.container:has(.projects:target) .navigation__projects,
-.container:has(.clients:target) .navigation__clients,
-.container:has(.contacts:target) .navigation__contacts {
-  color: var(--color-blue);
-  font-weight: var(--font-weight-bold);
-}
 /* Toggle */
 .toggle {
   display: flex;
@@ -84,7 +66,7 @@
 }
 
 .toggle__checkbox:checked + .toggle__label::after {
-  transform: translate(2.1rem);
+  transform: translateX(2.1rem);
   background-color: var(--color-green);
 }
 

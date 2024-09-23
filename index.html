@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Khaled Hesham</title>
   </head>
   <body>
     <div class="container">
-      <video class="video-loop" autoplay loop>
-        <source src="assets/jin-sakai-ghost-of-tsushima-moewalls.com.mp4">
+      <video class="video-loop" autoplay loop muted>
+        <source
+          src="assets/jin-sakai-ghost-of-tsushima-moewalls.com.mp4"
+          type="video/mp4"
+        />
       </video>
       <header class="header">
         <label for="menu" class="burger-menu">
@@ -21,45 +27,82 @@
           <div class="burger-menu__bar"></div>
           <div class="burger-menu__bar"></div>
         </label>
-        <input type="checkbox" id="menu" class="burger-menu__checkbox"/>
-
+        <input type="checkbox" id="menu" class="burger-menu__checkbox" />
 
         <nav class="navigation">
           <ul class="navigation__list">
-            <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
-            <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
-            <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
-            <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
-            <li><a href="#clients" class="navigation__link navigation__clients">My Clients</a></li>
-            <li><a href="#contacts" class="navigation__link navigation__contacts">Contact</a></li>
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contacts"
+                >Contact</a
+              >
+            </li>
           </ul>
         </nav>
         <div class="toggle">
           <h3 class="toggle__title">Switch Theme</h3>
-          <input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox">
+          <input type="checkbox" id="toggle" class="toggle__checkbox" />
           <label for="toggle" class="toggle__label"></label>
         </div>
       </header>
 
       <section id="bio" class="bio section">
         <div class="bio__data">
-          <h1 class="bio__heading">
-            Welcome To My Portfolio!
-          </h1>
+          <h1 class="bio__heading">Welcome To My Portfolio!</h1>
           <p class="bio__objective">
-            My name is <span class="bio__name">Khaled Hesham</span>, a CS student and a passionate software engineer i publish projects on 
-            <a href="https://github.com/delak101" class="bio__github" target="_blank">My Github</a> and you can find me on 
-            <a href="https://www.linkedin.com/in/khaledhesham02/" class="bio__linkedin" target="_blank">LinkedIn</a>.
+            My name is <span class="bio__name">Khaled Hesham</span>, a CS
+            student and a passionate software engineer i publish projects on
+            <a
+              href="https://github.com/delak101"
+              class="bio__github"
+              target="_blank"
+              >My Github</a
+            >
+            and you can find me on
+            <a
+              href="https://www.linkedin.com/in/khaledhesham02/"
+              class="bio__linkedin"
+              target="_blank"
+              >LinkedIn</a
+            >.
           </p>
           <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
-          <a href="assets/KHALED HESHAM.pdf" class="bio__links find-out-link">Download CV <span class="bio__arrow">↓</span></a>
+          <a href="assets/KHALED HESHAM.pdf" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
         </div>
 
         <div class="bio__pic-content">
-          <img class="bio__pic" src="assets/pictures/personal-pic.png" alt="My Picture">
+          <img
+            class="bio__pic"
+            src="assets/pictures/personal-pic.png"
+            alt="My Picture"
+          />
         </div>
       </section>
-      
+
       <section id="skills" class="skills section section--with-bg">
         <h2 class="h2-heading">Skills</h2>
         <ul class="skills__list">
@@ -89,49 +132,101 @@
           </li>
         </ul>
       </section>
-  
+
       <section id="media" class="media section">
-        <video class="media__video" src="assets/no.mp4" alt="Dummy video temp" poster="assets/pictures/thumbnailjpg.jpg" controls></video>
+        <video
+          class="media__video"
+          src="assets/no.mp4"
+          alt="Dummy video temp"
+          poster="assets/pictures/thumbnailjpg.jpg"
+          controls
+        ></video>
       </section>
 
       <section id="projects" class="projects section">
         <div class="projects__main">
-          <img class="projects__img" src="assets/pictures/projects/todolist.png" alt="ToDoList project" />
+          <img
+            class="projects__img"
+            src="assets/pictures/projects/todolist.png"
+            alt="ToDoList project"
+          />
           <div class="projects__content">
             <h3 class="h3-heading">ToDo-List</h3>
-            <p class="projects__text">This is a simple to-do list application that allows users
-              to add, remove, and mark tasks as completed.</p>
-            <a class="projects__link" href="https://github.com/delak101/To-Do-List" target="_blank">Project Link</a>
+            <p class="projects__text">
+              This is a simple to-do list application that allows users to add,
+              remove, and mark tasks as completed.
+            </p>
+            <a
+              class="projects__link"
+              href="https://github.com/delak101/To-Do-List"
+              target="_blank"
+              >Project Link</a
+            >
           </div>
         </div>
       </section>
 
       <section id="clients" class="clients section section--with-bg">
-        <h2 class="h2-heading">
-          What My<br>Clients Say
-        </h2>
+        <h2 class="h2-heading">What My<br />Clients Say</h2>
         <div class="clients__opinions">
           <div class="clients__wrapper">
-            <p class="clients__opinion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit deleniti eum magnam dolor, illum animi officiis laborum, adipisci ut, voluptate cupiditate. Quam eius quo enim necessitatibus, sapiente perspiciatis sed?</p>
-            <p class="clients__opinion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur obcaecati perspiciatis incidunt nemo maiores animi velit ullam iure itaque repellendus. Iste quod delectus saepe a, officiis ducimus. Quia, iusto adipisci.</p>
-            <p class="clients__opinion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam excepturi delectus ut exercitationem consectetur, at incidunt et debitis obcaecati, distinctio dolores quos labore corporis fuga iusto recusandae, quibusdam aperiam repellendus!</p>
+            <p class="clients__opinion">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              reprehenderit deleniti eum magnam dolor, illum animi officiis
+              laborum, adipisci ut, voluptate cupiditate. Quam eius quo enim
+              necessitatibus, sapiente perspiciatis sed?
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur obcaecati perspiciatis incidunt nemo maiores animi
+              velit ullam iure itaque repellendus. Iste quod delectus saepe a,
+              officiis ducimus. Quia, iusto adipisci.
+            </p>
+            <p class="clients__opinion">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              excepturi delectus ut exercitationem consectetur, at incidunt et
+              debitis obcaecati, distinctio dolores quos labore corporis fuga
+              iusto recusandae, quibusdam aperiam repellendus!
+            </p>
           </div>
         </div>
       </section>
 
       <section id="contact" class="contact section">
         <div>
-          <p class="contact__description">Feel free to reach out to me any time.</p>
-          <a class="contact__email" href="mailto:khaledhesham007@gmail.com">Khaledhesham007@gmail.com</a>
+          <p class="contact__description">
+            Feel free to reach out to me any time.
+          </p>
+          <a class="contact__email" href="mailto:khaledhesham007@gmail.com"
+            >Khaledhesham007@gmail.com</a
+          >
           <div class="contact__socials">
-            <a href="https://github.com/delak101" class="contact__social" target="_blank">
-              <img src="assets/pictures/brand/github.svg"  alt="github ico">
+            <a
+              href="https://github.com/delak101"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="assets/pictures/brand/github.svg" alt="github ico" />
             </a>
-            <a href="https://www.linkedin.com/in/khaledhesham02/" class="contact__social" target="_blank">
-              <img src="assets/pictures/brand/LinkedIn.svg"  alt="linkedin ico">
+            <a
+              href="https://www.linkedin.com/in/khaledhesham02/"
+              class="contact__social"
+              target="_blank"
+            >
+              <img
+                src="assets/pictures/brand/LinkedIn.svg"
+                alt="linkedin ico"
+              />
             </a>
-            <a href="https://www.facebook.com/delak.02" class="contact__social" target="_blank">
-              <img src="assets/pictures/brand/facebook.svg"  alt="facebook ico">
+            <a
+              href="https://www.facebook.com/delak.02"
+              class="contact__social"
+              target="_blank"
+            >
+              <img
+                src="assets/pictures/brand/facebook.svg"
+                alt="facebook ico"
+              />
             </a>
           </div>
         </div>
@@ -139,16 +234,35 @@
           <h2 class="h2-heading">Contact Me</h2>
           <form action="results.html">
             <div class="contact__inputs">
-              <input type="text" class="contact__input" placeholder="Full Name" name="Full Name" required />
-              <input type="tel" class="contact__input" placeholder="Phone No." name="Phone Number" required />
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Full Name"
+                name="Full Name"
+                required
+              />
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                name="Phone Number"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
             </div>
-            <textarea class="contact__input contact__textarea" name="description" id="description" rows="1"  placeholder="Your Message" name="Message" required ></textarea>
+            <textarea
+              class="contact__input contact__textarea"
+              rows="1"
+              placeholder="Your Message"
+              name="Message"
+              required
+            ></textarea>
             <input type="submit" value="Send Message" class="contact__button" />
           </form>
         </div>
       </section>
 
-      <footer class="footer"> &copy; 2024 by Khaled Hesham </footer>
+      <footer class="footer">&copy; 2024 by Khaled Hesham</footer>
     </div>
   </body>
 </html>
